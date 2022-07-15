@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "projects/*",
+      "setup/*"
+    ]
+  },
+  "scripts": {
+    "dev:web-public": "yarn workspace @felipemarinhodev/web-public dev"
+  }
+}

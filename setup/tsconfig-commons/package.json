@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
   "license": "MIT",
+  "scripts": {
+    "lint": "echo 'Not necessary'"
+  },
   "files": [
     "base.json"
   ]

@@ -18,13 +18,14 @@
   },
   "scripts": {
     "lint": "yarn workspaces run lint",
+    "utils": "yarn workspace @felipemarinhodev/utils",
     "web-public": "yarn workspace @felipemarinhodev/web-public",
+    "design-system": "yarn workspace @felipemarinhodev/design-system",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @felipemarinhodev/design-system",
-    "utils": "yarn workspace @felipemarinhodev/utils",
+    "test:design-system": "yarn design-system test",
     "test:utils": "yarn utils test"
   }
 }

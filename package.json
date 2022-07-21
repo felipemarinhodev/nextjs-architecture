@@ -25,6 +25,7 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test",
     "test:design-system": "yarn design-system test",
     "test:utils": "yarn utils test"
   }

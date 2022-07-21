@@ -5,6 +5,7 @@
   "author": "Felipe Marinho <npm@felipemarinho.dev> (https://felipemarinho.dev/)",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@felipemarinhodev/test-commons": "*",
     "@felipemarinhodev/tsconfig-commons": "*",
     "@felipemarinhodev/eslint-commons": "*",
     "next-compose-plugins": "^2.2.1",
